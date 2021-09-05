@@ -1,0 +1,22 @@
+$colors: (
+    "primary": #F4F3EE,
+    "secondary": #fff,
+    "theme": #C32C72,
+
+    "background": #E5E5E5,
+
+    "text-prmary": #262626,
+    "text-secondary": #463F3A,
+    "text-tertiery": #8d8d8d,
+);
+@function getColor($color) {      
+    @return map-get($colors, $color);
+}
+
+$fonts: (
+    "font-primary": ('Archivo Narrow', sans-serif),
+    "font-secondary": ('open sans', sans-serif),
+);
+@function getFont($font) {      
+    @return map-get($fonts, $font);
+}

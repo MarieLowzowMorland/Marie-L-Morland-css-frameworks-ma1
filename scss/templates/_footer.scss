@@ -1,0 +1,15 @@
+footer {
+    background-color: getColor(primary);
+    bottom: 0;
+    font-size: 1rem;
+    padding: 20px 0;
+    color: getColor(text-tertiery);
+
+    .row > div {
+        height: 1rem;
+    }
+    
+    a {
+        color: getColor(text-tertiery);
+    }
+}

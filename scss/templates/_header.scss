@@ -1,0 +1,16 @@
+.navbar-toggler {
+    border-color: none;
+    border: none;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
+    color: getColor(theme);
+}
+
+.navbar-collapse {
+    margin-left: 12px;
+}
+
+.navbar {
+    background-color: getColor(primary);
+}

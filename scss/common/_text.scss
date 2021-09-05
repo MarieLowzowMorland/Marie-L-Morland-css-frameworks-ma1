@@ -1,0 +1,25 @@
+html {
+  font-family: getFont(font-primary);
+  color: getColor(text-primary);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: getFont(font-primary);
+  text-align: center;
+  margin: auto;
+}
+
+.navbar-brand {
+  font-family: getFont(font-primary);
+  font-size: 2.25rem;
+}
+
+.nav-link {
+  text-transform: uppercase;
+  font-family: getFont(font-secondary);
+}
